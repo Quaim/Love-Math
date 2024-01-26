@@ -18,9 +18,13 @@ document.addEventListener("DOMContentLoaded", function() {
 
 })
 
+/**create random numbers to be used in equation */
 function runGame() {
-
+    let num1 = Math.ceil(Math.random()*25);
+    let num2 = Math.ceil(Math.random()*25);
 }
+
+
 
 function checkAnswer() {
 
